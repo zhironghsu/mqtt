@@ -7,9 +7,10 @@ package mqtt
 import (
 	"errors"
 	"fmt"
-	"log/slog"
 	"sync"
 	"sync/atomic"
+
+	"golang.org/x/exp/slog"
 
 	"github.com/mochi-mqtt/server/v2/hooks/storage"
 	"github.com/mochi-mqtt/server/v2/packets"

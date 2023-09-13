@@ -9,7 +9,7 @@ import (
 	"net"
 	"sync"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 // MockEstablisher is a function signature which can be used in testing.

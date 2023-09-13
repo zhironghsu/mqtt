@@ -6,10 +6,11 @@ package main
 
 import (
 	"log"
-	"log/slog"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"golang.org/x/exp/slog"
 
 	mqtt "github.com/mochi-mqtt/server/v2"
 	"github.com/mochi-mqtt/server/v2/hooks/auth"

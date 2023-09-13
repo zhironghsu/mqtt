@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 
 	"github.com/stretchr/testify/require"
 )
