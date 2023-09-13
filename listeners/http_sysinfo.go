@@ -8,11 +8,12 @@ import (
 	"context"
 	"encoding/json"
 	"io"
-	"log/slog"
 	"net/http"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"golang.org/x/exp/slog"
 
 	"github.com/mochi-mqtt/server/v2/system"
 )

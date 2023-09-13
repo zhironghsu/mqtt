@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 
 	"github.com/gorilla/websocket"
 )

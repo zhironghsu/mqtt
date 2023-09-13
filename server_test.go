@@ -8,13 +8,14 @@ import (
 	"bytes"
 	"encoding/binary"
 	"io"
-	"log/slog"
 	"net"
 	"strconv"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"golang.org/x/exp/slog"
 
 	"github.com/mochi-mqtt/server/v2/hooks/storage"
 	"github.com/mochi-mqtt/server/v2/listeners"

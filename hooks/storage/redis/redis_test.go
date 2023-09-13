@@ -5,11 +5,12 @@
 package redis
 
 import (
-	"log/slog"
 	"os"
 	"sort"
 	"testing"
 	"time"
+
+	"golang.org/x/exp/slog"
 
 	mqtt "github.com/mochi-mqtt/server/v2"
 	"github.com/mochi-mqtt/server/v2/hooks/storage"

@@ -5,9 +5,10 @@
 package auth
 
 import (
-	"log/slog"
 	"os"
 	"testing"
+
+	"golang.org/x/exp/slog"
 
 	mqtt "github.com/mochi-mqtt/server/v2"
 	"github.com/mochi-mqtt/server/v2/packets"
