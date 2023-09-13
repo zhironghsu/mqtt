@@ -9,7 +9,7 @@ import (
 	"net"
 	"sync"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 // Config contains configuration values for a listener.

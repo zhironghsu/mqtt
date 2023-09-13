@@ -9,7 +9,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"log/slog"
+	"golang.org/x/exp/slog"
 )
 
 // Net is a listener for establishing client connections on basic TCP protocol.

@@ -6,8 +6,9 @@ package debug
 
 import (
 	"fmt"
-	"log/slog"
 	"strings"
+
+	"golang.org/x/exp/slog"
 
 	mqtt "github.com/mochi-mqtt/server/v2"
 	"github.com/mochi-mqtt/server/v2/hooks/storage"

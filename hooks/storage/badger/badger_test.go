@@ -5,11 +5,12 @@
 package badger
 
 import (
-	"log/slog"
 	"os"
 	"strings"
 	"testing"
 	"time"
+
+	"golang.org/x/exp/slog"
 
 	mqtt "github.com/mochi-mqtt/server/v2"
 	"github.com/mochi-mqtt/server/v2/hooks/storage"

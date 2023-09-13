@@ -6,11 +6,12 @@ package listeners
 
 import (
 	"context"
-	"log/slog"
 	"net/http"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"golang.org/x/exp/slog"
 )
 
 // HTTPHealthCheck is a listener for providing an HTTP healthcheck endpoint.
