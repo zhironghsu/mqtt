@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mochi-mqtt/server/v2/packets"
-	"github.com/mochi-mqtt/server/v2/system"
 	"github.com/stretchr/testify/require"
+	"github.com/zhironghsu/mqtt/v2/packets"
+	"github.com/zhironghsu/mqtt/v2/system"
 )
 
 var (

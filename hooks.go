@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	"github.com/mochi-mqtt/server/v2/hooks/storage"
-	"github.com/mochi-mqtt/server/v2/packets"
-	"github.com/mochi-mqtt/server/v2/system"
+	"github.com/zhironghsu/mqtt/v2/hooks/storage"
+	"github.com/zhironghsu/mqtt/v2/packets"
+	"github.com/zhironghsu/mqtt/v2/system"
 )
 
 const (

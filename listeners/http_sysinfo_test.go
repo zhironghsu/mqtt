@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mochi-mqtt/server/v2/system"
+	"github.com/zhironghsu/mqtt/v2/system"
 
 	"github.com/stretchr/testify/require"
 )

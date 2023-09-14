@@ -10,9 +10,9 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	mqtt "github.com/mochi-mqtt/server/v2"
-	"github.com/mochi-mqtt/server/v2/packets"
 	"github.com/stretchr/testify/require"
+	mqtt "github.com/zhironghsu/mqtt/v2"
+	"github.com/zhironghsu/mqtt/v2/packets"
 )
 
 var logger = slog.New(slog.NewTextHandler(os.Stdout, nil))
