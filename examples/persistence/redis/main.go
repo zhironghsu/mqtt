@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/exp/slog"
 
-	mqtt "github.com/mochi-mqtt/server/v2"
-	"github.com/mochi-mqtt/server/v2/hooks/auth"
-	"github.com/mochi-mqtt/server/v2/hooks/storage/redis"
-	"github.com/mochi-mqtt/server/v2/listeners"
+	mqtt "github.com/zhironghsu/mqtt/v2"
+	"github.com/zhironghsu/mqtt/v2/hooks/auth"
+	"github.com/zhironghsu/mqtt/v2/hooks/storage/redis"
+	"github.com/zhironghsu/mqtt/v2/listeners"
 
 	rv8 "github.com/go-redis/redis/v8"
 )

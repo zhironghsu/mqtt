@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/mochi-mqtt/server/v2/packets"
 	"github.com/stretchr/testify/require"
+	"github.com/zhironghsu/mqtt/v2/packets"
 )
 
 func TestInflightSet(t *testing.T) {
