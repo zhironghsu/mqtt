@@ -10,7 +10,7 @@ import (
 	"context"
 	"errors"
 	"io"
-	"log/slog"
+
 	"net"
 	"strings"
 	"sync/atomic"
@@ -19,6 +19,7 @@ import (
 
 	"github.com/zhironghsu/mqtt/v2/packets"
 	"github.com/zhironghsu/mqtt/v2/system"
+	"golang.org/x/exp/slog"
 
 	"github.com/stretchr/testify/require"
 )
