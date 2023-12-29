@@ -1,6 +1,6 @@
 module github.com/zhironghsu/mqtt/v2
 
-go 1.21
+go 1.20
 
 require (
 	github.com/alicebob/miniredis/v2 v2.23.0
@@ -9,10 +9,12 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gorilla/websocket v1.5.0
 	github.com/jinzhu/copier v0.3.5
+	github.com/mochi-mqtt/server/v2 v2.4.4
 	github.com/rs/xid v1.4.0
 	github.com/stretchr/testify v1.7.1
 	github.com/timshannon/badgerhold v1.0.0
 	go.etcd.io/bbolt v1.3.5
+	golang.org/x/exp v0.0.0-20231226003508-02704c960a9b
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -26,8 +28,6 @@ require (
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/golang/protobuf v1.5.0 // indirect
-	github.com/golang/snappy v0.0.3 // indirect
-	github.com/google/go-cmp v0.5.8 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20210529063254-f4c35e4016d9 // indirect
